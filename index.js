@@ -40,7 +40,8 @@ const puppeteerChrome = require('puppeteer');
             width: 1280,
             height: 800
         });
-        await page.goto('https://www.bbc.com/news');   
+        await page.goto('https://www.bbc.com/news');  
+        //await page.goto('https://www.bbc.com/news');   
         await page.hover('#nw-c-most-read-heading__title');
         await page.screenshot({ path: 'bcc-most-read.png' })
         
