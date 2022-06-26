@@ -15,6 +15,12 @@ describe('First Test', ()=>{
         try {
         const page = await browser.newPage()
         await page.goto('https://essotheone.thaiddns.com:4433/#LogIn',{timeout: 5000});
+        await page.type('#gwt-debug-userNameTextBox', "seniorproject");
+        await page.type('#gwt-debug-userPasswordTextBox', "vmsseniorproject2");
+
+
+        await page.click("#gwt-debug-signInButton")
+        //<button type="button" class="gwt-Button" id="gwt-debug-signInButton">Sign In</button>
         } catch (err){
             console.error(err.message);
             return false;
