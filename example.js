@@ -10,27 +10,36 @@ describe('First Test', ()=>{
         product: 'firefox',
         ignoreHTTPSErrors: true, 
         acceptInsecureCerts: true, 
-        args:['--proxy-bypass-list=*', '--disable-gpu', '--disable-dev-shm-usage', '--disable-setuid-sandbox', '--no-first-run', '--no-sandbox', '--no-zygote', '--single-process', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
+        args:['--proxy-bypass-list=*', '--disable-gpu', 
+        '--disable-dev-shm-usage', '--disable-setuid-sandbox', '--no-first-run', 
+        '--no-sandbox', '--no-zygote', '--single-process', '--ignore-certificate-errors', 
+        '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
         executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'})
-        try {
+       
         const page = await browser.newPage()
         await page.goto('https://essotheone.thaiddns.com:4433/#LogIn',{timeout: 5000});
         await page.type('#gwt-debug-userNameTextBox', "seniorproject");
         await page.type('#gwt-debug-userPasswordTextBox', "vmsseniorproject2");
-
-
         await page.click("#gwt-debug-signInButton")
-        //<button type="button" class="gwt-Button" id="gwt-debug-signInButton">Sign In</button>
-        } catch (err){
-            console.error(err.message);
-            return false;
-            //await page.goto('https://auspark.au.edu/Account/Login?ReturnUrl=%2F')
-        await page.screenshot({ path: 'bcc-most-read.png' })
+
+        let data = await page.evaluate(()=>{
+            let Tank = document.querySelector('div[class="tankDetailLabel"]').innerText;
+            //Array.from(document.querySelector('div[id="_paramName"][class="value_label"]').innerHTML
+            //let T = document.querySelector('div[id="_paramName"][class="tank_item_div_height"]').innerText
+            return{
+                Tank
+            }
+        });
+
+        console.log(data);
+        debugger;
+        
+        //await page.screenshot({ path: 'bcc-most-read.png' })
         await page.reload();
         //await browser.close();
-    }
+    
 
-    let data = false;
+  /*  let data = false;
     let attemps = 0;
     while (data === false && attemps < 5){
         data = await browser(page);
@@ -40,7 +49,7 @@ describe('First Test', ()=>{
                 setTimeout(resolve,3000)
             })
         }
-    }
+    }*/
 })   
 })
 
