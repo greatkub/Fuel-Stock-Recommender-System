@@ -1,1 +1,1 @@
-# FSRS-Stock-Recommender
+# FSRS
