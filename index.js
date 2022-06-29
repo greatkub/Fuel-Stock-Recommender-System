@@ -23,9 +23,9 @@ async function start() {
   })
   await fs.writeFile("names.txt", names.join("\r\n"))
 
-  //await page.click("#clickme")
-  //const clickedData = await page.$eval("#data", el => el.textContent)
-  //console.log(clickedData)
+  await page.click("#clickme")
+  const clickedData = await page.$eval("#data", el => el.textContent)
+  console.log(clickedData)
 
   //await page.type("#ourfield", "blue")
   //await Promise.all([page.click("#ourform button"), page.waitForNavigation()])
