@@ -15,7 +15,6 @@ const puppeteerChrome = require('puppeteer');
         //await browser.close();
      
             const data = await page.evaluate(()=>{
-          
                 const tank = document.querySelectorAll('TankLabel').innerText
                 return tank.innerText;
             })

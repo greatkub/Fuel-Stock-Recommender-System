@@ -1,5 +1,4 @@
 const puppeteerVar = require('puppeteer-core');
-
 //const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 //puppeteerVar.use(StealthPlugin())
 
@@ -25,7 +24,7 @@ describe('First Test', ()=>{
         let data = await page.evaluate(()=>{
             let Tank = document.querySelector('div[class="tankDetailLabel"]').innerText;
             //Array.from(document.querySelector('div[id="_paramName"][class="value_label"]').innerHTML
-            //let T = document.querySelector('div[id="_paramName"][class="tank_item_div_height"]').innerText
+            let T = document.querySelector('div[id="_paramName"][class="tank_item_div_height"]').innerText
             return{
                 Tank
             }
@@ -34,12 +33,11 @@ describe('First Test', ()=>{
         console.log(data);
         debugger;
         
-        //await page.screenshot({ path: 'bcc-most-read.png' })
+        await page.screenshot({ path: 'bcc-most-read.png' })
         await page.reload();
-        //await browser.close();
+        await browser.close();
     
-
-  /*  let data = false;
+    //let data = false;
     let attemps = 0;
     while (data === false && attemps < 5){
         data = await browser(page);
@@ -49,9 +47,12 @@ describe('First Test', ()=>{
                 setTimeout(resolve,3000)
             })
         }
-    }*/
+    }
 })   
 })
+
+
+
 
 
 

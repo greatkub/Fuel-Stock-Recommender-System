@@ -26,13 +26,7 @@ async function start() {
   await page.click("#clickme")
   const clickedData = await page.$eval("#data", el => el.textContent)
   console.log(clickedData)
-
-  //await page.type("#ourfield", "blue")
-  //await Promise.all([page.click("#ourform button"), page.waitForNavigation()])
-  //const info = await page.$eval("#message", el => el.textContent)
- // console.log(info)
-
- console.log(names)
+  console.log(names)
 
   await browser.close()
 }

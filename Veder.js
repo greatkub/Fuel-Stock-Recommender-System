@@ -18,6 +18,7 @@ async function start() {
   await page.type('#gwt-debug-userNameTextBox', "seniorproject");
   await page.type('#gwt-debug-userPasswordTextBox', "vmsseniorproject2");
   await page.click("#gwt-debug-signInButton")
+  
   await page.waitForNavigation();
 
   // console.group("A")
