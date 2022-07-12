@@ -1,7 +1,7 @@
-     T 1: GASOHOL 95 PLUS                  Volume   4387      Ullage 100%   10988      Water Height   0.0      Fuel Height   685.7      Stick Height                 View  
-     T 2: GASOHOL 91                  Volume   5279      Ullage 100%   9906      Water Height   0.0      Fuel Height   792.2      Stick Height                 View  
-     T 3: E20                  Volume   7280      Ullage 100%   7866      Water Height   0.0      Fuel Height   991.6      Stick Height                 View  
-     T 4: GASOHOL 95                  Volume   4126      Ullage 100%   11040      Water Height   0.0      Fuel Height   642.2      Stick Height                 View  
-     T 5: SUPREME+DIESEL                  Volume   3632      Ullage 100%   11761      Water Height   0.0      Fuel Height   598.0      Stick Height                 View  
-     T 6: Diesel                  Volume   5252      Ullage 100%   10142      Water Height   0.0      Fuel Height   781.5      Stick Height                 View  
-     T 7: B7                  Volume   16947      Ullage 100%   14874      Water Height   0.0      Fuel Height   1070.9      Stick Height                 View  
+     T 1: GASOHOL 95 PLUS                  Volume   2881      Ullage 100%   12494      Water Height   0.0      Fuel Height   507.6      Stick Height                 View  
+     T 2: GASOHOL 91                  Volume   6642      Ullage 100%   8543      Water Height   0.0      Fuel Height   941.0      Stick Height                 View  
+     T 3: E20                  Volume   6757      Ullage 100%   8388      Water Height   0.0      Fuel Height   935.3      Stick Height                 View  
+     T 4: GASOHOL 95                  Volume   3091      Ullage 100%   12075      Water Height   0.0      Fuel Height   518.5      Stick Height                 View  
+     T 5: SUPREME+DIESEL                  Volume   2793      Ullage 100%   12600      Water Height   0.0      Fuel Height   496.1      Stick Height                 View  
+     T 6: Diesel                  Volume   2642      Ullage 100%   12751      Water Height   0.0      Fuel Height   477.1      Stick Height                 View  
+     T 7: B7                  Volume   9609      Ullage 100%   22211      Water Height   0.0      Fuel Height   683.2      Stick Height                 View  

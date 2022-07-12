@@ -1,7 +1,7 @@
 const puppeteerVar = require('puppeteer-core');
 //const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 //puppeteerVar.use(StealthPlugin())
-
+const fs = require("fs/promises")
 describe('First Test', ()=>{
     it('Launch the Browser', async function(){
         const browser = await puppeteerVar.launch({headless: false,

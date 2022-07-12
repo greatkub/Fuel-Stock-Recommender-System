@@ -1,6 +1,21 @@
 const puppeteer = require('puppeteer')
 const fs = require("fs/promises")
+const mongo = require("mongodb").MongoClient
 
+const url = "mongodb+srv://Oildb:seniorproject2@fsrs-cluster.0flfd.mongodb.net/test";let db, TL
+mongo.connect(
+    url,
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    },
+    (err, client) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+      db = client.db("TL")
+      TL = db.collection("TL")
 
 async function tutorial() {
    try {
@@ -21,6 +36,7 @@ async function tutorial() {
        await page.type('#gwt-debug-userPasswordTextBox', "vmsseniorproject2");
        await Promise.all([
         page.click("#gwt-debug-signInButton"),
+       // page.click("#gwt-debug-tankItem4 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2) > a:nth-child(2)"),
         page.waitForNavigation(),
     ]);
     await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
@@ -32,16 +48,16 @@ async function tutorial() {
                results.push({
                    //url: item.getAttribute('data-url'),
                    Tank: item.querySelector('.TankLabel').innerText,
-                   Volume: Array.from(item.querySelectorAll('.tank_item_div_height')).textContent,
+                   Volume: item.querySelector('.tank_item_div_height').textContent,
                    //Ullage: item.querySelector('#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)').textContent
-
-                  
                })
            })
            return results
        })
 
        console.log(data)
+        TL.insertMany(data)
+
        await browser.close()
 
    } catch (error) {
@@ -50,3 +66,5 @@ async function tutorial() {
 }
 
 tutorial()
+}
+)
