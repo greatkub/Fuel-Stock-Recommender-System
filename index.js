@@ -1,101 +1,35 @@
-/*const { executablePath } = require('puppeteer');
-const puppeteer = require('puppeteer')
-; (async()=>{
-    const browserFetcher = puppeteer.createBrowserFetcher({
-        product: 'firefox',
-        path: './browser'
-    });
+const puppeteer = require("puppeteer")
+const fs = require("fs/promises")
 
-    const revisionInfo = await browserFetcher.download('0.31.0',(downloaded,
-        total =>{
-            console.log(`Download ${downloaded} of ${total} bytes`)
+async function start() {
+  const browser = await puppeteer.launch({
+    headless: false,
+    slowMo: 50,
+    product: 'firefox',
+    ignoreHTTPSErrors: true, 
+    acceptInsecureCerts: true, 
+    args:['--proxy-bypass-list=*', '--disable-gpu', '--disable-dev-shm-usage', 
+    '--disable-setuid-sandbox', '--no-first-run', '--no-sandbox', 
+    '--no-zygote', '--single-process', '--ignore-certificate-errors', 
+    '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
+    executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
 
-        }));
+  })
+  const page = await browser.newPage()
+  await page.goto("https://learnwebcode.github.io/practice-requests/")
 
+  const names = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll(".info strong")).map(x => x.textContent)
+  })
+  await fs.writeFile("names.txt", names.join("\r\n"))
 
-    const browser = await puppeteer.launch({
-        executablePath: revisionInfo.executablePath,
-        product: 'firefox'
-    
-    })
+  await page.click("#clickme")
+  const clickedData = await page.$eval("#data", el => el.textContent)
+  console.log(clickedData)
+  console.log(names)
 
-    const page = await browser.newPage();
-    await page.setViewport({width: 1920, height: 1080})
-    await page.goto("https://www.google.com/")
-    
-    await browser.close();
-   
+  await browser.close()
+}
 
-})()*/
+start()
 
-
-const puppeteerChrome = require('puppeteer');
-//const puppeteerFirefox = require('puppeteer-firefox');
-
-(async () => {
-
-    const test = async browser => {
-        const page = await browser.newPage();
-        await page.setViewport({
-            width: 1280,
-            height: 800
-        });
-        await page.goto('https://www.bbc.com/news');   
-        await page.hover('#nw-c-most-read-heading__title');
-        await page.screenshot({ path: 'bcc-most-read.png' })
-        
-        await browser.close();
-    }
-
-    const chrome = await puppeteerChrome.launch({
-        headless: false,
-        slowMo: 50
-    });
-    await test(chrome);
-
-    /*const firefox = await puppeteerFirefox.launch({
-        headless: false,
-        slowMo: 50
-    });
-    await test(firefox);*/
-
-})();
-
-
-/*const puppeteer = require('puppeteer');
-(async () => {
-
-    const test = async browser => {
-        const page = await browser.newPage();
-        await page.setViewport({
-            width: 1280,
-            height: 800
-        });
-        await page.goto('https://www.bbc.com/news');   
-        await page.hover('#nw-c-most-read-heading__title');
-        await page.screenshot({ path: 'bcc-most-read.png' })
-        
-        await browser.close();
-    }
-
-    const chrome = await puppeteer.launch({
-        product: 'firefox',
-        headless: false,
-        slowMo: 50
-    });
-    await test(chrome);
-
-})();*/
-
-
-
- 
- /*const puppeteer = require('puppeteer-firefox');
-const puppeteer = require("puppeteer");
-
-(async () => {
-  // FireFox's binary is needed to be fetched before
-  const browser = await puppeteer.launch({ product: "firefox" });
-  console.info(browser);
-  await browser.close();
-})();*/

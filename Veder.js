@@ -9,7 +9,11 @@ async function start() {
     ignoreHTTPSErrors: true,
     //acceptInsecureCerts: true, 
     args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
+
+    executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+
     // executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+
 
   })
 
@@ -18,6 +22,11 @@ async function start() {
   await page.goto('https://essotheone.thaiddns.com:4433/#LogIn');
   await page.type('#gwt-debug-userNameTextBox', "seniorproject");
   await page.type('#gwt-debug-userPasswordTextBox', "vmsseniorproject2");
+
+  await page.click("#gwt-debug-signInButton")
+  
+  await page.waitForNavigation();
+
   // await page.waitForNavigation();
   // await page.click("#gwt-debug-signInButton")
   await Promise.all([
@@ -28,12 +37,18 @@ async function start() {
     await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
 
 
+
   // console.group("A")
   // let e2a = document.getElementsByClassName("tank_item_div_height")
   // console.log("e2a",e2a)
   // let elementa = document.querySelector('#gwt-debug-tankItem5 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)');
   // console.log("element",elementa)
   // console.groupEnd("A")
+
+
+  console.group("B")
+  let e2b = await page.$$(".tank_item_div_height")
+
   const TLS = await page.evaluate(() => {
     //document.querySelector('div[id="_paramName"][class="tank_item_div_height"]').innerText
     //document.querySelector('TankLabel').textContent
@@ -85,15 +100,19 @@ const data = document.querySelector('TankLabel')
 
   console.group("B")
   let e2b = await page.$$("#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)")
+
   console.log("e2b",e2b)
   let e2b1 = await page.$$("tank_item_div_height")
   console.log("e2b1",e2b1)
   let elementb = await page.$('#gwt-debug-tankItem5 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)');
   console.log("element",elementb)
   console.groupEnd("B")
+
+
   const itemsList = await page.$('.tank_item_div_height'); 
   console.log("itemList",itemsList)// Using '.$' is the puppeteer equivalent of 'querySelector'
   // const elements = await itemsList.$$('.item'); // Using '.$$' is the puppeteer equivalent of 'querySelectorAll'
+
 
 
 
@@ -177,6 +196,5 @@ start()
     //await fs.writeFile("TLS.txt", TLS.join("\r\n"))
     //console.log(TLS)
 
-/* const TLS = await page.evaluate(() => {
- const data = document.querySelector('TankLabel')
-return data.innerHTML;*/
+
+
