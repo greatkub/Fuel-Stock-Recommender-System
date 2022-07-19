@@ -10,7 +10,7 @@ async function start() {
     //acceptInsecureCerts: true, 
     args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
 
-    executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+    // executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
 
     // executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
 
@@ -99,7 +99,7 @@ const data = document.querySelector('TankLabel')
 
 
   console.group("B")
-  let e2b = await page.$$("#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)")
+  // let e2b = await page.$$("#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)")
 
   console.log("e2b",e2b)
   let e2b1 = await page.$$("tank_item_div_height")

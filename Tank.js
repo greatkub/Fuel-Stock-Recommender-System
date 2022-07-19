@@ -27,7 +27,7 @@ async function tutorial() {
         ignoreHTTPSErrors: true,
         //acceptInsecureCerts: true, 
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
-        executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+        // executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
        const page = await browser.newPage()
        await page.goto('https://essotheone.thaiddns.com:4433/#LogIn')
