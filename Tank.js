@@ -87,6 +87,7 @@ async function VeederRoot() {
            });
             //console.log(day + "-" + month + "-" + year+ "-");
             //console.log(fulldate);
+
             console.log(data)
             TL.insertMany(data)
             await browser.close()
@@ -95,8 +96,8 @@ async function VeederRoot() {
        console.error(error)
    }
 }
-// Set schedule for scraping
 sch.scheduleJob("*/2 * * * *",VeederRoot);
+
 VeederRoot()
 //sch.cancelJob()
 })
