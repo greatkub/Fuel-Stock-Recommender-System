@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer')
 const fs = require("fs/promises")
 const mongo = require("mongodb").MongoClient
 
-const url = "mongodb+srv://Oildb:seniorproject2@fsrs-cluster.0flfd.mongodb.net/test";let db, TL
+const url = "mongodb+srv://Oildb:<password>@fsrs-cluster.0flfd.mongodb.net/test";let db, TL
 mongo.connect(
     url,
     {
