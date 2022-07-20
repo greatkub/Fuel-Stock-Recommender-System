@@ -2,9 +2,9 @@
   "name": "puppeteer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./example.js"
+    "test": "node server.js"
   },
   "keywords": [],
   "author": "",
