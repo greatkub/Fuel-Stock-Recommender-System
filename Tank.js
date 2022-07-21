@@ -26,11 +26,11 @@ async function VeederRoot() {
    try {
        const date = Date.now();
        const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         slowMo: 50,
         product: 'firefox',
         ignoreHTTPSErrors: true,
-        args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
+        args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox'],
         executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
        const page = await browser.newPage()
@@ -60,7 +60,8 @@ async function VeederRoot() {
                  const day = dat.getDate()
                  const month = dat.getMonth() +1
                  const year = dat.getFullYear()
-                 const fulldate = `${day}/${month}/${year}`
+                // const time = dat.getTi
+                 const date = `${day}/${month}/${year}`
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
 
@@ -71,6 +72,7 @@ async function VeederRoot() {
                  const W = select[2];
                  const F = select[3];
                  results.push({
+                    date,
                     //Time: D.innerText, 
                     Tank: T.innerText,
                     Volume:V.innerText, 
