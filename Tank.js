@@ -30,7 +30,9 @@ async function VeederRoot() {
         slowMo: 50,
         product: 'firefox',
         ignoreHTTPSErrors: true,
-        args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox'],
+        args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
+        '--disable-extensions','--use-gl=egl'],
+
         executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
        const page = await browser.newPage()
