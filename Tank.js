@@ -33,7 +33,7 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl'],
 
-        executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+        //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
        const page = await browser.newPage()
        await page.goto('https://essotheone.thaiddns.com:4433/#LogIn')
