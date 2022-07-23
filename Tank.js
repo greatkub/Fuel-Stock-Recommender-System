@@ -31,7 +31,7 @@ async function VeederRoot() {
         product: 'firefox',
         ignoreHTTPSErrors: true,
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
-        '--disable-extensions','--use-gl=egl'],
+        '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
 
         executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
