@@ -34,8 +34,9 @@ async function VeederRoot() {
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
         //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
-      
-        executablePath: browser.executablePath
+        executablePath: 'Mozilla Firefox/firefox.exe'
+
+        //executablePath: browser.executablePath
 
 
        })
