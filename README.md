@@ -1,3 +1,3 @@
 
 # Scraping Data from Veeder-Root
-Using puppeteer to automate scraping data from veeder root 
+Using puppeteer to automatically scraping data from veeder root 
