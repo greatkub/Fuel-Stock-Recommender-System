@@ -61,6 +61,7 @@ async function VeederRoot() {
             // const time = dat.getTi
              const date = `${day}/${month}/${year}`
            items.forEach((item) => {   
+
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
                  const T = TankName;
