@@ -35,10 +35,7 @@ async function VeederRoot() {
         ignoreDefaultArgs: ["--disable-extensions"],
         executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
         //executablePath: 'Mozilla Firefox/firefox.exe'
-
         //executablePath: browser.executablePath
-
-
        })
        const page = await browser.newPage()
        await page.goto('https://essotheone.thaiddns.com:4433/#LogIn')
@@ -52,16 +49,10 @@ async function VeederRoot() {
     await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
          
         // Get data from Veeder-root web page
-        
         let data = await page.evaluate(() => {
            const items = Array.from(document.querySelectorAll('.TankOverviewTableItem'))
            let results = [];
            items.forEach((item) => {   
-                 /*const date = new Date()
-                 const day = date.getDate()
-                 const month = date.getMonth() +1
-                 const year = date.getFullYear()*/
-                 //const fulldate = `${day}/${month}/${year}`
                  let ts = Date.now();
                  const dat = new Date(ts)
                  const day = dat.getDate()
@@ -73,7 +64,6 @@ async function VeederRoot() {
                  const TankName = item.querySelector('.TankLabel');
 
                  const T = TankName;
-                 //const D = fulldate;
                  const V = select[0];
                  const U = select[1];
                  const W = select[2];
@@ -95,12 +85,9 @@ async function VeederRoot() {
                return results
            });
             //console.log(day + "-" + month + "-" + year+ "-");
-            //console.log(fulldate);
-
             console.log(data)
             TL.insertMany(data)
             await browser.close()
-
    } catch (error) {
        console.error(error)
    }

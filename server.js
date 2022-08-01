@@ -5,7 +5,6 @@ const app = express();
 app.set("view engine", "pug")
 app.set("views", path.join(__dirname, "."))
 
-
 app.get('/', async(req, res)=>{
     const response = await Tank();
     // let response; ( async ()=>{
@@ -19,8 +18,6 @@ app.listen(PORT,(err)=>{
     if(err) throw err;
     console.log(`listen on port ${PORT}...`);
 })
-
-
 
 /*
 
