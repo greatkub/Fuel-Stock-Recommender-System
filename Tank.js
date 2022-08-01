@@ -77,10 +77,7 @@ async function VeederRoot() {
                     Waterheight: W.innerText,
                     Fuelheight: F.innerText
                 });
-                   //url: item.getAttribute('data-url'),
-                   //Tank: item.querySelector('.TankLabel').innerText,
-                   //Volume: item.querySelector('.tank_item_div_height').textContent,
-                   //Ullage: item.querySelector('#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)').textContent
+
                });
                return results
            });
