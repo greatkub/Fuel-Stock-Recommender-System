@@ -95,8 +95,8 @@ async function VeederRoot() {
        console.error(error)
    }
 }
-sch.scheduleJob("0 8 * * *",VeederRoot);
-//sch.scheduleJob("*/30 * * * * *",VeederRoot);
+//sch.scheduleJob("0 8 * * *",VeederRoot);
+sch.scheduleJob("*/30 * * * * *",VeederRoot);
 VeederRoot()
 //sch.cancelJob()
 })
