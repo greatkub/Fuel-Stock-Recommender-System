@@ -33,9 +33,7 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
-        //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe',
-        executablePath: '/app/vendor/firefox/firefox'
-        //Selenium:WebDriver:Firefox:Binary.path = "/app/vendor/firefox/firefox"
+        executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
        })
 
        const page = await browser.newPage()
@@ -63,6 +61,7 @@ async function VeederRoot() {
             // const time = dat.getTi
              const date = `${day}/${month}/${year}`
            items.forEach((item) => {   
+
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
                  const T = TankName;
@@ -77,14 +76,9 @@ async function VeederRoot() {
                     Waterheight: W.innerText,
                     Fuelheight: F.innerText
                   })
-                   //url: item.getAttribute('data-url'),
-                   //Tank: item.querySelector('.TankLabel').innerText,
-                   //Volume: item.querySelector('.tank_item_div_height').textContent,
-                   //Ullage: item.querySelector('#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)').textContent
                });
              results.push({
                     date,
-                    //Time: D.innerText, 
                     Tank: allTank
                 });
                return results
@@ -96,7 +90,7 @@ async function VeederRoot() {
        console.error(error)
    }
 }
-sch.scheduleJob("0 8 * * *",VeederRoot);
+sch.scheduleJob("0 12 * * *",VeederRoot);
 //sch.scheduleJob("*/30 * * * * *",VeederRoot);
 VeederRoot()
 //sch.cancelJob()
