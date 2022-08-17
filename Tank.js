@@ -26,7 +26,7 @@ async function VeederRoot() {
    try {
        const date = Date.now();
        const browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 50,
         product: 'firefox',
         ignoreHTTPSErrors: true,
