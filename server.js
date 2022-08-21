@@ -5,7 +5,6 @@ const app = express();
 app.set("view engine", "pug")
 app.set("views", path.join(__dirname, "."))
 
-
 app.get('/', async(req, res)=>{
     const response = await Tank();
     // let response; ( async ()=>{
