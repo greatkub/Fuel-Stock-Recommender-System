@@ -33,10 +33,10 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
-        executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe',
+        //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe',
         //FIREFOX_BIN: '/app/vendor/firefox/firefox'
         //executablePath: '/app/vendor/firefox/firefox'
-        //executablePath: '/app/vendor/firefox/firefox'
+        executablePath: '/app/vendor/firefox/firefox'
         //Selenium:WebDriver:Firefox:Binary.path = "/app/vendor/firefox/firefox"
        })
 
@@ -51,7 +51,6 @@ async function VeederRoot() {
     ]);
 
     await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
-         
         // Get data from Veeder-root web page      
         let data = await page.evaluate(() => {
            const items = Array.from(document.querySelectorAll('.TankOverviewTableItem'))

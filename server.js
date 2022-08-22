@@ -20,10 +20,8 @@ app.listen(PORT,(err)=>{
 })
 
 /*
-
 const express = require("express")
 const path = require("path")
-
 const app = express()
 app.set("view engine", "pug")
 app.set("views", path.join(__dirname, "."))
@@ -59,7 +57,6 @@ app.get("/", (req, res) => {
 
 app.listen(3000, () => console.log("Server ready"))
 
-
 // index.pug file
 html
   body
@@ -68,6 +65,4 @@ html
       | #{job.company}
       br
       a(href=`${job.link}`) #{job.position}
-
-
 */
