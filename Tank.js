@@ -39,7 +39,6 @@ async function VeederRoot() {
         //executablePath: '/app/vendor/firefox/firefox'
         //Selenium:WebDriver:Firefox:Binary.path = "/app/vendor/firefox/firefox"
        })
-
        const page = await browser.newPage()
        await page.goto('https://essotheone.thaiddns.com:4433/#LogIn')
        await page.type('#gwt-debug-userNameTextBox', "seniorproject");
