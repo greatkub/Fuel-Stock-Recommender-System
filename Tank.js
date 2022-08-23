@@ -48,7 +48,6 @@ async function VeederRoot() {
        // page.click("#gwt-debug-tankItem4 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2) > a:nth-child(2)"),
         page.waitForNavigation(),
     ]);
-
     await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
         // Get data from Veeder-root web page      
         let data = await page.evaluate(() => {
