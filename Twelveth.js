@@ -7,7 +7,7 @@ const fs = require("fs/promises")
 const mongo = require("mongodb").MongoClient
 
 // Connect to MongoDB Database
-const url = "mongodb+srv://Oildb:seniorproject2@fsrs-cluster.0flfd.mongodb.net/test";let db, TL
+const url = "mongodb+srv://Oildb:seniorproject2@fsrs-cluster.0flfd.mongodb.net/test";let db, Twelve
 mongo.connect(
     url,
     {
@@ -19,8 +19,8 @@ mongo.connect(
         console.error(err)
         return
       }
-      db = client.db("TL")
-      TL = db.collection("TL")
+      db = client.db("Twelve")
+      TL = db.collection("Twelve-12")
 
 async function VeederRoot() {
    try {
@@ -33,9 +33,13 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
-        executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+        //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
+        extraPrefsFirefox: {
+          // Enable additional Firefox logging from its protocol implementation
+          // 'remote.log.level': 'Trace',
+        },
        })
-
+       
        const page = await browser.newPage()
        await page.goto('https://essotheone.thaiddns.com:4433/#LogIn')
        await page.type('#gwt-debug-userNameTextBox', "seniorproject");
@@ -53,21 +57,29 @@ async function VeederRoot() {
            let allTank = [];
            let ts = Date.now();
              const dat = new Date(ts)
+             console.time()
              const day = dat.getDate()
+             console.time()
              const month = dat.getMonth() +1
+             console.time()
              const year = dat.getFullYear()
+             console.time()
             // const time = dat.getTi
              const date = `${day}/${month}/${year}`
            items.forEach((item) => {   
-
+            console.time()
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
                  const T = TankName;
                  //const D = fulldate;
                  const V = select[0];
+                 console.time()
                  const U = select[1];
+                 console.time()
                  const W = select[2];
+                 console.time()
                  const F = select[3];
+                 console.time()
                  allTank.push({ TankName: T.innerText,
                     Volume:V.innerText, 
                     Ullage: U.innerText,
@@ -82,10 +94,14 @@ async function VeederRoot() {
                return results
            });
             console.log(data)
+            console.time()
             TL.insertMany(data)
+            console.time()
             await browser.close()
+            console.time()
    } catch (error) {
        console.error(error)
+       console.time()
    }
 }
 sch.scheduleJob("0 12 * * *",VeederRoot);
