@@ -1,8 +1,6 @@
 const puppeteer = require('puppeteer')
 //const nodeCron = require("node-cron")
 const sch = require("node-schedule")
-//const ora = require("ora");
-//const chalk = require("chalk");
 const fs = require("fs/promises")
 const mongo = require("mongodb").MongoClient
 
@@ -25,6 +23,7 @@ mongo.connect(
 async function VeederRoot() {
    try {
        const date = Date.now();
+       console.time()
        const browser = await puppeteer.launch({
         headless: true,
         slowMo: 50,
@@ -33,7 +32,6 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
-        //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
         extraPrefsFirefox: {
           // Enable additional Firefox logging from its protocol implementation
           // 'remote.log.level': 'Trace',
@@ -57,29 +55,21 @@ async function VeederRoot() {
            let allTank = [];
            let ts = Date.now();
              const dat = new Date(ts)
-             console.time()
              const day = dat.getDate()
-             console.time()
              const month = dat.getMonth() +1
-             console.time()
              const year = dat.getFullYear()
-             console.time()
             // const time = dat.getTi
              const date = `${day}/${month}/${year}`
            items.forEach((item) => {   
-            console.time()
+
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
                  const T = TankName;
                  //const D = fulldate;
                  const V = select[0];
-                 console.time()
                  const U = select[1];
-                 console.time()
                  const W = select[2];
-                 console.time()
                  const F = select[3];
-                 console.time()
                  allTank.push({ TankName: T.innerText,
                     Volume:V.innerText, 
                     Ullage: U.innerText,
@@ -94,16 +84,13 @@ async function VeederRoot() {
                return results
            });
             console.log(data)
-            console.time()
             TL.insertMany(data)
-            console.time()
             await browser.close()
-            console.time()
    } catch (error) {
        console.error(error)
-       console.time()
    }
 }
+/* schedule allow to scrape data every 12:00 pm*/
 sch.scheduleJob("0 12 * * *",VeederRoot);
 //sch.scheduleJob("*/30 * * * * *",VeederRoot);
 VeederRoot()

@@ -33,9 +33,12 @@ async function VeederRoot() {
         args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService', '--no-sandbox',
         '--disable-extensions','--use-gl=egl', '--disable-setuid-sandbox'],
         ignoreDefaultArgs: ["--disable-extensions"],
+        extraPrefsFirefox: {
+          // Enable additional Firefox logging from its protocol implementation
+          // 'remote.log.level': 'Trace',
+        },
         //executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe',
         //FIREFOX_BIN: '/app/vendor/firefox/firefox'
-        executablePath: '/app/vendor/firefox/firefox'
         //executablePath: '/app/vendor/firefox/firefox'
         //Selenium:WebDriver:Firefox:Binary.path = "/app/vendor/firefox/firefox"
        })
