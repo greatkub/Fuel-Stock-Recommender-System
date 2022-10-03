@@ -77,11 +77,11 @@ async function VeederRoot() {
                     Fuelheight: F.innerText
                   })
                });
-             results.push({
+             /*results.push({
                     date,
                     Tank: allTank
                 });
-               return results
+               return results*/
            });
             console.log(data)
             TL.insertMany(data)
