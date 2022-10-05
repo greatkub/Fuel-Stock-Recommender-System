@@ -10,7 +10,6 @@ async function start() {
     //acceptInsecureCerts: true, 
     args: ['--ignore-certificate-errors', '--ignore-certificate-errors-spki-list', '--enable-features=NetworkService'],
     // executablePath: 'C:/Program Files/Mozilla Firefox/firefox.exe'
-
   })
 
   const page = await browser.newPage()
@@ -24,9 +23,8 @@ async function start() {
     page.click("#gwt-debug-signInButton"),
     page.waitForNavigation(),
     ]);
-  
-    await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
 
+    await page.waitForSelector('#gwt-debug-tankItem1 > table:nth-child(1)');
 
   // console.group("A")
   // let e2a = document.getElementsByClassName("tank_item_div_height")
@@ -77,12 +75,10 @@ const data = document.querySelector('TankLabel')
  return data.innerHTML;*/
 
 })
-    console.log(TLS)
+  console.log(TLS)
   console.log("value",Value)
   console.log("table",table)
   
-
-
   console.group("B")
   let e2b = await page.$$("#gwt-debug-tankItem1 > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1)")
   console.log("e2b",e2b)
@@ -94,8 +90,6 @@ const data = document.querySelector('TankLabel')
   const itemsList = await page.$('.tank_item_div_height'); 
   console.log("itemList",itemsList)// Using '.$' is the puppeteer equivalent of 'querySelector'
   // const elements = await itemsList.$$('.item'); // Using '.$$' is the puppeteer equivalent of 'querySelectorAll'
-
-
 
   let amounts = await page.evaluate((sel) => {
     // console.group("C")
@@ -133,7 +127,6 @@ const data = document.querySelector('TankLabel')
   
   console.log("amounts 1", amounts3)
 
-
   let amounts4 = await page.evaluate((sel) => {
     // console.group("C")
     // let e2 = document.getElementsByClassName("tank_item_div_height")
@@ -167,16 +160,4 @@ const data = document.querySelector('TankLabel')
   await browser.close();
 
 }
-
 start()
-
-
-
- //await browser.close()
- //})
-    //await fs.writeFile("TLS.txt", TLS.join("\r\n"))
-    //console.log(TLS)
-
-/* const TLS = await page.evaluate(() => {
- const data = document.querySelector('TankLabel')
-return data.innerHTML;*/

@@ -3192,398 +3192,6 @@
   ]
 },{
   "_id": {
-    "$oid": "633856726bef5b46cdc69d2c"
-  },
-  "date": "1/10/2022 22:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3337",
-      "Ullage": "12038",
-      "Waterheight": "0.0",
-      "Fuelheight": "563.3"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9837",
-      "Ullage": "5349",
-      "Waterheight": "0.0",
-      "Fuelheight": "1285.2"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8873",
-      "Ullage": "6272",
-      "Waterheight": "0.0",
-      "Fuelheight": "1163.0"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9955",
-      "Ullage": "5210",
-      "Waterheight": "0.0",
-      "Fuelheight": "1279.5"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5272",
-      "Ullage": "10122",
-      "Waterheight": "0.0",
-      "Fuelheight": "783.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "3046",
-      "Ullage": "12348",
-      "Waterheight": "0.0",
-      "Fuelheight": "527.5"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "9831",
-      "Ullage": "21990",
-      "Waterheight": "0.0",
-      "Fuelheight": "695.3"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "633864991b07767511c7c4ec"
-  },
-  "date": "1/10/2022 23:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3319",
-      "Ullage": "12056",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.2"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9762",
-      "Ullage": "5424",
-      "Waterheight": "0.0",
-      "Fuelheight": "1277.0"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8873",
-      "Ullage": "6273",
-      "Waterheight": "0.0",
-      "Fuelheight": "1163.0"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9894",
-      "Ullage": "5271",
-      "Waterheight": "0.0",
-      "Fuelheight": "1272.9"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5273",
-      "Ullage": "10121",
-      "Waterheight": "0.0",
-      "Fuelheight": "783.8"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "3032",
-      "Ullage": "12361",
-      "Waterheight": "0.0",
-      "Fuelheight": "525.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25693",
-      "Ullage": "6127",
-      "Waterheight": "0.0",
-      "Fuelheight": "1546.6"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "63389ccc5fbbc98ded4947ca"
-  },
-  "date": "1/10/2022 27:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3323",
-      "Ullage": "12052",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.6"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9672",
-      "Ullage": "5513",
-      "Waterheight": "0.0",
-      "Fuelheight": "1267.2"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8797",
-      "Ullage": "6348",
-      "Waterheight": "0.0",
-      "Fuelheight": "1154.8"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9774",
-      "Ullage": "5391",
-      "Waterheight": "0.0",
-      "Fuelheight": "1259.7"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5244",
-      "Ullage": "10149",
-      "Waterheight": "0.0",
-      "Fuelheight": "780.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2984",
-      "Ullage": "12410",
-      "Waterheight": "0.0",
-      "Fuelheight": "519.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25415",
-      "Ullage": "6405",
-      "Waterheight": "0.0",
-      "Fuelheight": "1530.1"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6338aa988b85c0bfb11995a6"
-  },
-  "date": "1/10/2022 28:1",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3324",
-      "Ullage": "12052",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.7"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9639",
-      "Ullage": "5547",
-      "Waterheight": "0.0",
-      "Fuelheight": "1263.6"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8798",
-      "Ullage": "6347",
-      "Waterheight": "0.0",
-      "Fuelheight": "1155.0"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9765",
-      "Ullage": "5401",
-      "Waterheight": "0.0",
-      "Fuelheight": "1258.6"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5245",
-      "Ullage": "10149",
-      "Waterheight": "0.0",
-      "Fuelheight": "780.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2984",
-      "Ullage": "12410",
-      "Waterheight": "0.0",
-      "Fuelheight": "519.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25415",
-      "Ullage": "6405",
-      "Waterheight": "0.0",
-      "Fuelheight": "1530.1"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6338b8d3d4438632bbc82905"
-  },
-  "date": "1/10/2022 29:1",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3324",
-      "Ullage": "12051",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.8"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9628",
-      "Ullage": "5557",
-      "Waterheight": "0.0",
-      "Fuelheight": "1262.4"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8799",
-      "Ullage": "6346",
-      "Waterheight": "0.0",
-      "Fuelheight": "1155.1"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9743",
-      "Ullage": "5422",
-      "Waterheight": "0.0",
-      "Fuelheight": "1256.3"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5245",
-      "Ullage": "10149",
-      "Waterheight": "0.0",
-      "Fuelheight": "780.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2984",
-      "Ullage": "12410",
-      "Waterheight": "0.0",
-      "Fuelheight": "519.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25361",
-      "Ullage": "6459",
-      "Waterheight": "0.0",
-      "Fuelheight": "1527.0"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6338c6f8da862d12bed0f8e3"
-  },
-  "date": "1/10/2022 30:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3325",
-      "Ullage": "12051",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.8"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9615",
-      "Ullage": "5571",
-      "Waterheight": "0.0",
-      "Fuelheight": "1261.0"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8797",
-      "Ullage": "6348",
-      "Waterheight": "0.0",
-      "Fuelheight": "1154.9"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9732",
-      "Ullage": "5433",
-      "Waterheight": "0.0",
-      "Fuelheight": "1255.1"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5245",
-      "Ullage": "10148",
-      "Waterheight": "0.0",
-      "Fuelheight": "780.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2975",
-      "Ullage": "12418",
-      "Waterheight": "0.0",
-      "Fuelheight": "518.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25270",
-      "Ullage": "6551",
-      "Waterheight": "0.0",
-      "Fuelheight": "1521.6"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6338d515e6d17f79292b2eab"
-  },
-  "date": "2/10/2022 7:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3318",
-      "Ullage": "12057",
-      "Waterheight": "0.0",
-      "Fuelheight": "561.0"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "9562",
-      "Ullage": "5623",
-      "Waterheight": "0.0",
-      "Fuelheight": "1255.2"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8794",
-      "Ullage": "6351",
-      "Waterheight": "0.0",
-      "Fuelheight": "1154.5"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "9679",
-      "Ullage": "5487",
-      "Waterheight": "0.0",
-      "Fuelheight": "1249.3"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5245",
-      "Ullage": "10148",
-      "Waterheight": "0.0",
-      "Fuelheight": "780.8"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2975",
-      "Ullage": "12418",
-      "Waterheight": "0.0",
-      "Fuelheight": "518.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "25043",
-      "Ullage": "6777",
-      "Waterheight": "0.0",
-      "Fuelheight": "1508.4"
-    }
-  ]
-},{
-  "_id": {
     "$oid": "6338e2caa3c5349eeeade306"
   },
   "date": "2/10/2022 8:0",
@@ -3636,454 +3244,6 @@
       "Ullage": "6977",
       "Waterheight": "0.0",
       "Fuelheight": "1496.8"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6339294bd5753c64d77c1789"
-  },
-  "date": "2/10/2022 13:1",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3269",
-      "Ullage": "12106",
-      "Waterheight": "0.0",
-      "Fuelheight": "555.1"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "8790",
-      "Ullage": "6395",
-      "Waterheight": "0.0",
-      "Fuelheight": "1171.7"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8469",
-      "Ullage": "6676",
-      "Waterheight": "0.0",
-      "Fuelheight": "1119.5"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "8119",
-      "Ullage": "7047",
-      "Waterheight": "0.0",
-      "Fuelheight": "1080.7"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5197",
-      "Ullage": "10196",
-      "Waterheight": "0.0",
-      "Fuelheight": "775.5"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2707",
-      "Ullage": "12687",
-      "Waterheight": "0.0",
-      "Fuelheight": "485.3"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "22962",
-      "Ullage": "8859",
-      "Waterheight": "0.0",
-      "Fuelheight": "1390.6"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "6339375a0b2bfe16be4e964b"
-  },
-  "date": "2/10/2022 14:1",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3234",
-      "Ullage": "12142",
-      "Waterheight": "0.0",
-      "Fuelheight": "550.8"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "8709",
-      "Ullage": "6476",
-      "Waterheight": "0.0",
-      "Fuelheight": "1163.0"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8324",
-      "Ullage": "6821",
-      "Waterheight": "0.0",
-      "Fuelheight": "1103.9"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "7817",
-      "Ullage": "7349",
-      "Waterheight": "0.0",
-      "Fuelheight": "1048.3"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5170",
-      "Ullage": "10223",
-      "Waterheight": "0.0",
-      "Fuelheight": "772.5"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2650",
-      "Ullage": "12743",
-      "Waterheight": "0.0",
-      "Fuelheight": "478.1"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "22368",
-      "Ullage": "9452",
-      "Waterheight": "0.0",
-      "Fuelheight": "1358.0"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "633961853dadad4e16084411"
-  },
-  "date": "2/10/2022 17:1",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3169",
-      "Ullage": "12207",
-      "Waterheight": "0.0",
-      "Fuelheight": "542.9"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "8252",
-      "Ullage": "6934",
-      "Waterheight": "0.0",
-      "Fuelheight": "1113.9"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "8057",
-      "Ullage": "7088",
-      "Waterheight": "0.0",
-      "Fuelheight": "1075.2"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "6994",
-      "Ullage": "8172",
-      "Waterheight": "0.0",
-      "Fuelheight": "959.9"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5110",
-      "Ullage": "10283",
-      "Waterheight": "0.0",
-      "Fuelheight": "765.9"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2436",
-      "Ullage": "12957",
-      "Waterheight": "0.0",
-      "Fuelheight": "450.7"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "21030",
-      "Ullage": "10791",
-      "Waterheight": "0.0",
-      "Fuelheight": "1285.7"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "63396c979405bb83c750126f"
-  },
-  "date": "2/10/2022 17:48",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3151",
-      "Ullage": "12224",
-      "Waterheight": "0.0",
-      "Fuelheight": "540.8"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "8047",
-      "Ullage": "7138",
-      "Waterheight": "0.0",
-      "Fuelheight": "1091.9"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "7957",
-      "Ullage": "7188",
-      "Waterheight": "0.0",
-      "Fuelheight": "1064.4"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "6783",
-      "Ullage": "8383",
-      "Waterheight": "0.0",
-      "Fuelheight": "937.1"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5110",
-      "Ullage": "10283",
-      "Waterheight": "0.0",
-      "Fuelheight": "765.9"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2383",
-      "Ullage": "13010",
-      "Waterheight": "0.0",
-      "Fuelheight": "443.8"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "20805",
-      "Ullage": "11015",
-      "Waterheight": "0.0",
-      "Fuelheight": "1273.7"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "63397dbd7bbb3802de2cac23"
-  },
-  "date": "2/10/2022 19:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3123",
-      "Ullage": "12253",
-      "Waterheight": "0.0",
-      "Fuelheight": "537.3"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "7864",
-      "Ullage": "7321",
-      "Waterheight": "0.0",
-      "Fuelheight": "1072.3"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "7829",
-      "Ullage": "7317",
-      "Waterheight": "0.0",
-      "Fuelheight": "1050.6"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "6355",
-      "Ullage": "8810",
-      "Waterheight": "0.0",
-      "Fuelheight": "890.9"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5088",
-      "Ullage": "10305",
-      "Waterheight": "0.0",
-      "Fuelheight": "763.5"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2227",
-      "Ullage": "13166",
-      "Waterheight": "0.0",
-      "Fuelheight": "423.2"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "20467",
-      "Ullage": "11353",
-      "Waterheight": "0.0",
-      "Fuelheight": "1255.7"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "63398bdc438faaf26f075535"
-  },
-  "date": "2/10/2022 20:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3124",
-      "Ullage": "12251",
-      "Waterheight": "0.0",
-      "Fuelheight": "537.5"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "7773",
-      "Ullage": "7413",
-      "Waterheight": "0.0",
-      "Fuelheight": "1062.5"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "7776",
-      "Ullage": "7369",
-      "Waterheight": "0.0",
-      "Fuelheight": "1045.0"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "6154",
-      "Ullage": "9011",
-      "Waterheight": "0.0",
-      "Fuelheight": "869.1"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5088",
-      "Ullage": "10305",
-      "Waterheight": "0.0",
-      "Fuelheight": "763.5"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2202",
-      "Ullage": "13192",
-      "Waterheight": "0.0",
-      "Fuelheight": "419.9"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "20254",
-      "Ullage": "11566",
-      "Waterheight": "0.0",
-      "Fuelheight": "1244.3"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "633a0a5dfab25ab22e69cc62"
-  },
-  "date": "2/10/2022 29:2",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3078",
-      "Ullage": "12297",
-      "Waterheight": "0.0",
-      "Fuelheight": "531.9"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "7597",
-      "Ullage": "7588",
-      "Waterheight": "0.0",
-      "Fuelheight": "1043.6"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "7647",
-      "Ullage": "7499",
-      "Waterheight": "0.0",
-      "Fuelheight": "1031.1"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "5642",
-      "Ullage": "9524",
-      "Waterheight": "0.0",
-      "Fuelheight": "813.0"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "5000",
-      "Ullage": "10393",
-      "Waterheight": "0.0",
-      "Fuelheight": "753.7"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2179",
-      "Ullage": "13214",
-      "Waterheight": "0.0",
-      "Fuelheight": "416.9"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "19271",
-      "Ullage": "12550",
-      "Waterheight": "0.0",
-      "Fuelheight": "1192.4"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "633a2883fa4b0de18f538a0f"
-  },
-  "date": "3/10/2022 7:10",
-  "Tank": [
-    {
-      "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3079",
-      "Ullage": "12296",
-      "Waterheight": "0.0",
-      "Fuelheight": "532.0"
-    },
-    {
-      "TankName": "T 2: GASOHOL 91",
-      "Volume": "7492",
-      "Ullage": "7693",
-      "Waterheight": "0.0",
-      "Fuelheight": "1032.4"
-    },
-    {
-      "TankName": "T 3: E20",
-      "Volume": "7618",
-      "Ullage": "7527",
-      "Waterheight": "0.0",
-      "Fuelheight": "1028.0"
-    },
-    {
-      "TankName": "T 4: GASOHOL 95",
-      "Volume": "5420",
-      "Ullage": "9745",
-      "Waterheight": "0.0",
-      "Fuelheight": "788.6"
-    },
-    {
-      "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "4986",
-      "Ullage": "10407",
-      "Waterheight": "0.0",
-      "Fuelheight": "752.2"
-    },
-    {
-      "TankName": "T 6: Diesel",
-      "Volume": "2095",
-      "Ullage": "13299",
-      "Waterheight": "0.0",
-      "Fuelheight": "405.5"
-    },
-    {
-      "TankName": "T 7: B7",
-      "Volume": "18333",
-      "Ullage": "13488",
-      "Waterheight": "0.0",
-      "Fuelheight": "1143.2"
     }
   ]
 },{
@@ -4144,114 +3304,1290 @@
   ]
 },{
   "_id": {
-    "$oid": "633a4254a4781f5b2b4e5737"
+    "$oid": "633b85c325b99323b210fc21"
   },
-  "date": "3/10/2022 9:0",
+  "date": "4/10/2022 8:0",
   "Tank": [
     {
       "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3034",
-      "Ullage": "12342",
+      "Volume": "2874",
+      "Ullage": "12501",
       "Waterheight": "0.0",
-      "Fuelheight": "526.4"
+      "Fuelheight": "506.7"
     },
     {
       "TankName": "T 2: GASOHOL 91",
-      "Volume": "7203",
-      "Ullage": "7983",
+      "Volume": "5764",
+      "Ullage": "9422",
       "Waterheight": "0.0",
-      "Fuelheight": "1001.3"
+      "Fuelheight": "845.6"
     },
     {
       "TankName": "T 3: E20",
-      "Volume": "7498",
-      "Ullage": "7647",
+      "Volume": "6438",
+      "Ullage": "8707",
       "Waterheight": "0.0",
-      "Fuelheight": "1015.1"
+      "Fuelheight": "900.8"
     },
     {
       "TankName": "T 4: GASOHOL 95",
-      "Volume": "5219",
-      "Ullage": "9946",
+      "Volume": "8241",
+      "Ullage": "6925",
       "Waterheight": "0.0",
-      "Fuelheight": "766.2"
+      "Fuelheight": "1093.8"
     },
     {
       "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "4986",
-      "Ullage": "10407",
+      "Volume": "4753",
+      "Ullage": "10640",
       "Waterheight": "0.0",
-      "Fuelheight": "752.2"
+      "Fuelheight": "726.3"
     },
     {
       "TankName": "T 6: Diesel",
-      "Volume": "1988",
-      "Ullage": "13405",
+      "Volume": "7290",
+      "Ullage": "8104",
       "Waterheight": "0.0",
-      "Fuelheight": "391.1"
+      "Fuelheight": "1000.5"
     },
     {
       "TankName": "T 7: B7",
-      "Volume": "17394",
-      "Ullage": "14426",
+      "Volume": "20167",
+      "Ullage": "11653",
       "Waterheight": "0.0",
-      "Fuelheight": "1094.2"
+      "Fuelheight": "1239.7"
     }
   ]
 },{
   "_id": {
-    "$oid": "633a42ab88e0652a5f47fc89"
+    "$oid": "633b1595ce35951bf4060dea"
   },
-  "date": "3/10/2022 9:2",
+  "date": "3/10/2022 24:2",
   "Tank": [
     {
       "TankName": "T 1: GASOHOL 95 PLUS",
-      "Volume": "3034",
-      "Ullage": "12342",
+      "Volume": "2917",
+      "Ullage": "12458",
       "Waterheight": "0.0",
-      "Fuelheight": "526.4"
+      "Fuelheight": "512.1"
     },
     {
       "TankName": "T 2: GASOHOL 91",
-      "Volume": "7186",
-      "Ullage": "7999",
+      "Volume": "6017",
+      "Ullage": "9168",
       "Waterheight": "0.0",
-      "Fuelheight": "999.6"
+      "Fuelheight": "873.3"
     },
     {
       "TankName": "T 3: E20",
-      "Volume": "7498",
-      "Ullage": "7647",
+      "Volume": "6605",
+      "Ullage": "8540",
       "Waterheight": "0.0",
-      "Fuelheight": "1015.1"
+      "Fuelheight": "918.9"
     },
     {
       "TankName": "T 4: GASOHOL 95",
-      "Volume": "5184",
-      "Ullage": "9981",
+      "Volume": "2721",
+      "Ullage": "12445",
       "Waterheight": "0.0",
-      "Fuelheight": "762.3"
+      "Fuelheight": "472.0"
     },
     {
       "TankName": "T 5: SUPREME+DIESEL",
-      "Volume": "4987",
-      "Ullage": "10407",
+      "Volume": "4758",
+      "Ullage": "10635",
       "Waterheight": "0.0",
-      "Fuelheight": "752.2"
+      "Fuelheight": "726.8"
     },
     {
       "TankName": "T 6: Diesel",
-      "Volume": "1977",
-      "Ullage": "13416",
+      "Volume": "1412",
+      "Ullage": "13981",
       "Waterheight": "0.0",
-      "Fuelheight": "389.6"
+      "Fuelheight": "308.7"
     },
     {
       "TankName": "T 7: B7",
-      "Volume": "17380",
-      "Ullage": "14441",
+      "Volume": "12602",
+      "Ullage": "19218",
       "Waterheight": "0.0",
-      "Fuelheight": "1093.5"
+      "Fuelheight": "844.0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633b23a82ae53c66b055b9fe"
+  },
+  "date": "3/10/2022 25:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2918",
+      "Ullage": "12457",
+      "Waterheight": "0.0",
+      "Fuelheight": "512.1"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "6017",
+      "Ullage": "9169",
+      "Waterheight": "0.0",
+      "Fuelheight": "873.2"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6588",
+      "Ullage": "8557",
+      "Waterheight": "0.0",
+      "Fuelheight": "917.0"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "2707",
+      "Ullage": "12458",
+      "Waterheight": "0.0",
+      "Fuelheight": "470.3"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4758",
+      "Ullage": "10635",
+      "Waterheight": "0.0",
+      "Fuelheight": "726.8"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "1412",
+      "Ullage": "13981",
+      "Waterheight": "0.0",
+      "Fuelheight": "308.7"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "12535",
+      "Ullage": "19286",
+      "Waterheight": "0.0",
+      "Fuelheight": "840.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633b5bc9929956fabdc4954f"
+  },
+  "date": "3/10/2022 29:1",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2918",
+      "Ullage": "12457",
+      "Waterheight": "0.0",
+      "Fuelheight": "512.2"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5999",
+      "Ullage": "9186",
+      "Waterheight": "0.0",
+      "Fuelheight": "871.3"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6574",
+      "Ullage": "8571",
+      "Waterheight": "0.0",
+      "Fuelheight": "915.5"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "2677",
+      "Ullage": "12488",
+      "Waterheight": "0.0",
+      "Fuelheight": "466.5"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4758",
+      "Ullage": "10636",
+      "Waterheight": "0.0",
+      "Fuelheight": "726.8"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "1412",
+      "Ullage": "13981",
+      "Waterheight": "0.0",
+      "Fuelheight": "308.7"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "11743",
+      "Ullage": "20078",
+      "Waterheight": "0.0",
+      "Fuelheight": "798.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633b7815e8271fe0f4abd245"
+  },
+  "date": "4/10/2022 7:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2905",
+      "Ullage": "12470",
+      "Waterheight": "0.0",
+      "Fuelheight": "510.5"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5899",
+      "Ullage": "9286",
+      "Waterheight": "0.0",
+      "Fuelheight": "860.4"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6481",
+      "Ullage": "8664",
+      "Waterheight": "0.0",
+      "Fuelheight": "905.4"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "8539",
+      "Ullage": "6626",
+      "Waterheight": "0.0",
+      "Fuelheight": "1125.9"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4753",
+      "Ullage": "10640",
+      "Waterheight": "0.0",
+      "Fuelheight": "726.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7312",
+      "Ullage": "8082",
+      "Waterheight": "0.0",
+      "Fuelheight": "1002.8"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "20820",
+      "Ullage": "11000",
+      "Waterheight": "0.0",
+      "Fuelheight": "1274.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633b85e1774203f8d8f6a142"
+  },
+  "date": "4/10/2022 8:1",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2874",
+      "Ullage": "12501",
+      "Waterheight": "0.0",
+      "Fuelheight": "506.7"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5764",
+      "Ullage": "9422",
+      "Waterheight": "0.0",
+      "Fuelheight": "845.6"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6439",
+      "Ullage": "8707",
+      "Waterheight": "0.0",
+      "Fuelheight": "900.8"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "8239",
+      "Ullage": "6927",
+      "Waterheight": "0.0",
+      "Fuelheight": "1093.6"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4753",
+      "Ullage": "10640",
+      "Waterheight": "0.0",
+      "Fuelheight": "726.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7290",
+      "Ullage": "8104",
+      "Waterheight": "0.0",
+      "Fuelheight": "1000.5"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "20168",
+      "Ullage": "11653",
+      "Waterheight": "0.0",
+      "Fuelheight": "1239.8"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633bb0561db0165ad0c6be1f"
+  },
+  "date": "4/10/2022 11:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2867",
+      "Ullage": "12509",
+      "Waterheight": "0.0",
+      "Fuelheight": "505.7"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5338",
+      "Ullage": "9847",
+      "Waterheight": "0.0",
+      "Fuelheight": "798.7"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6251",
+      "Ullage": "8895",
+      "Waterheight": "0.0",
+      "Fuelheight": "880.4"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "7649",
+      "Ullage": "7517",
+      "Waterheight": "0.0",
+      "Fuelheight": "1030.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4534",
+      "Ullage": "10860",
+      "Waterheight": "0.0",
+      "Fuelheight": "701.7"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7136",
+      "Ullage": "8257",
+      "Waterheight": "0.0",
+      "Fuelheight": "984.2"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "18572",
+      "Ullage": "13248",
+      "Waterheight": "0.0",
+      "Fuelheight": "1155.7"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633ba26be37abd0eaa67fe34"
+  },
+  "date": "4/10/2022 10:3",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2866",
+      "Ullage": "12509",
+      "Waterheight": "0.0",
+      "Fuelheight": "505.7"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5455",
+      "Ullage": "9730",
+      "Waterheight": "0.0",
+      "Fuelheight": "811.7"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6332",
+      "Ullage": "8813",
+      "Waterheight": "0.0",
+      "Fuelheight": "889.3"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "7871",
+      "Ullage": "7295",
+      "Waterheight": "0.0",
+      "Fuelheight": "1054.1"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4753",
+      "Ullage": "10640",
+      "Waterheight": "0.0",
+      "Fuelheight": "726.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7150",
+      "Ullage": "8243",
+      "Waterheight": "0.0",
+      "Fuelheight": "985.7"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "18991",
+      "Ullage": "12829",
+      "Waterheight": "0.0",
+      "Fuelheight": "1177.7"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633bbe6cb3a442c83d5c1098"
+  },
+  "date": "4/10/2022 12:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2868",
+      "Ullage": "12508",
+      "Waterheight": "0.0",
+      "Fuelheight": "505.9"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "5217",
+      "Ullage": "9968",
+      "Waterheight": "0.0",
+      "Fuelheight": "785.3"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6240",
+      "Ullage": "8906",
+      "Waterheight": "0.0",
+      "Fuelheight": "879.2"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "7495",
+      "Ullage": "7670",
+      "Waterheight": "0.0",
+      "Fuelheight": "1013.7"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4534",
+      "Ullage": "10860",
+      "Waterheight": "0.0",
+      "Fuelheight": "701.7"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7131",
+      "Ullage": "8262",
+      "Waterheight": "0.0",
+      "Fuelheight": "983.7"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "18073",
+      "Ullage": "13748",
+      "Waterheight": "0.0",
+      "Fuelheight": "1129.6"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633bda91b5896793d06b696f"
+  },
+  "date": "4/10/2022 14:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2831",
+      "Ullage": "12544",
+      "Waterheight": "0.0",
+      "Fuelheight": "501.3"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4940",
+      "Ullage": "10246",
+      "Waterheight": "0.0",
+      "Fuelheight": "754.4"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6182",
+      "Ullage": "8964",
+      "Waterheight": "0.0",
+      "Fuelheight": "872.9"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "7153",
+      "Ullage": "8013",
+      "Waterheight": "0.0",
+      "Fuelheight": "977.0"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10952",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7077",
+      "Ullage": "8316",
+      "Waterheight": "0.0",
+      "Fuelheight": "977.9"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "16484",
+      "Ullage": "15336",
+      "Waterheight": "0.0",
+      "Fuelheight": "1046.9"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633be876a6d38b1cdb298a3d"
+  },
+  "date": "4/10/2022 15:1",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2832",
+      "Ullage": "12543",
+      "Waterheight": "0.0",
+      "Fuelheight": "501.4"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4864",
+      "Ullage": "10322",
+      "Waterheight": "0.0",
+      "Fuelheight": "745.8"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "6161",
+      "Ullage": "8984",
+      "Waterheight": "0.0",
+      "Fuelheight": "870.7"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "6968",
+      "Ullage": "8198",
+      "Waterheight": "0.0",
+      "Fuelheight": "957.0"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "7046",
+      "Ullage": "8348",
+      "Waterheight": "0.0",
+      "Fuelheight": "974.6"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "15399",
+      "Ullage": "16422",
+      "Waterheight": "0.0",
+      "Fuelheight": "990.4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c12a970e8b964585696f8"
+  },
+  "date": "4/10/2022 18:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2803",
+      "Ullage": "12572",
+      "Waterheight": "0.0",
+      "Fuelheight": "497.9"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4391",
+      "Ullage": "10794",
+      "Waterheight": "0.0",
+      "Fuelheight": "692.2"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5910",
+      "Ullage": "9236",
+      "Waterheight": "0.0",
+      "Fuelheight": "843.2"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "5922",
+      "Ullage": "9243",
+      "Waterheight": "0.0",
+      "Fuelheight": "843.7"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6884",
+      "Ullage": "8510",
+      "Waterheight": "0.0",
+      "Fuelheight": "957.4"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "14278",
+      "Ullage": "17543",
+      "Waterheight": "0.0",
+      "Fuelheight": "932.0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c1b527b6a6187038bcbe5"
+  },
+  "date": "4/10/2022 18:38",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2804",
+      "Ullage": "12572",
+      "Waterheight": "0.0",
+      "Fuelheight": "497.9"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4287",
+      "Ullage": "10899",
+      "Waterheight": "0.0",
+      "Fuelheight": "680.1"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5892",
+      "Ullage": "9254",
+      "Waterheight": "0.0",
+      "Fuelheight": "841.2"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "5791",
+      "Ullage": "9374",
+      "Waterheight": "0.0",
+      "Fuelheight": "829.4"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6884",
+      "Ullage": "8510",
+      "Waterheight": "0.0",
+      "Fuelheight": "957.4"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "14103",
+      "Ullage": "17718",
+      "Waterheight": "0.0",
+      "Fuelheight": "922.8"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c2edb80c47159eaa42245"
+  },
+  "date": "4/10/2022 20:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2729",
+      "Ullage": "12647",
+      "Waterheight": "0.0",
+      "Fuelheight": "488.5"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4151",
+      "Ullage": "11034",
+      "Waterheight": "0.0",
+      "Fuelheight": "664.5"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5874",
+      "Ullage": "9271",
+      "Waterheight": "0.0",
+      "Fuelheight": "839.3"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "5362",
+      "Ullage": "9803",
+      "Waterheight": "0.0",
+      "Fuelheight": "782.1"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6884",
+      "Ullage": "8509",
+      "Waterheight": "0.0",
+      "Fuelheight": "957.4"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "13706",
+      "Ullage": "18115",
+      "Waterheight": "0.0",
+      "Fuelheight": "902.1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c3cc89feb4c195dbbb2af"
+  },
+  "date": "4/10/2022 21:1",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2730",
+      "Ullage": "12645",
+      "Waterheight": "0.0",
+      "Fuelheight": "488.6"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "4101",
+      "Ullage": "11085",
+      "Waterheight": "0.0",
+      "Fuelheight": "658.6"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5782",
+      "Ullage": "9364",
+      "Waterheight": "0.0",
+      "Fuelheight": "829.2"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "5245",
+      "Ullage": "9920",
+      "Waterheight": "0.0",
+      "Fuelheight": "769.1"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6841",
+      "Ullage": "8552",
+      "Waterheight": "0.0",
+      "Fuelheight": "952.8"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "13569",
+      "Ullage": "18252",
+      "Waterheight": "0.0",
+      "Fuelheight": "894.9"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c913c09f1da8ba3785233"
+  },
+  "date": "4/10/2022 27:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2727",
+      "Ullage": "12649",
+      "Waterheight": "0.0",
+      "Fuelheight": "488.2"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3960",
+      "Ullage": "11226",
+      "Waterheight": "0.0",
+      "Fuelheight": "642.2"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5701",
+      "Ullage": "9445",
+      "Waterheight": "0.0",
+      "Fuelheight": "820.3"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4960",
+      "Ullage": "10205",
+      "Waterheight": "0.0",
+      "Fuelheight": "737.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6816",
+      "Ullage": "8577",
+      "Waterheight": "0.0",
+      "Fuelheight": "950.2"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "13161",
+      "Ullage": "18660",
+      "Waterheight": "0.0",
+      "Fuelheight": "873.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633c9f4e887e72420e611fc8"
+  },
+  "date": "4/10/2022 28:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2727",
+      "Ullage": "12648",
+      "Waterheight": "0.0",
+      "Fuelheight": "488.3"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3959",
+      "Ullage": "11227",
+      "Waterheight": "0.0",
+      "Fuelheight": "642.1"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5701",
+      "Ullage": "9445",
+      "Waterheight": "0.0",
+      "Fuelheight": "820.3"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4962",
+      "Ullage": "10204",
+      "Waterheight": "0.0",
+      "Fuelheight": "737.4"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4442",
+      "Ullage": "10951",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.3"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6816",
+      "Ullage": "8577",
+      "Waterheight": "0.0",
+      "Fuelheight": "950.2"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "13155",
+      "Ullage": "18665",
+      "Waterheight": "0.0",
+      "Fuelheight": "873.2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cad6954ef7926db824df0"
+  },
+  "date": "4/10/2022 29:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2725",
+      "Ullage": "12651",
+      "Waterheight": "0.0",
+      "Fuelheight": "488.0"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3952",
+      "Ullage": "11234",
+      "Waterheight": "0.0",
+      "Fuelheight": "641.2"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5700",
+      "Ullage": "9445",
+      "Waterheight": "0.0",
+      "Fuelheight": "820.2"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4962",
+      "Ullage": "10203",
+      "Waterheight": "0.0",
+      "Fuelheight": "737.5"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4441",
+      "Ullage": "10952",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.2"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6816",
+      "Ullage": "8577",
+      "Waterheight": "0.0",
+      "Fuelheight": "950.2"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "13143",
+      "Ullage": "18677",
+      "Waterheight": "0.0",
+      "Fuelheight": "872.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cd743084456b98826331b"
+  },
+  "date": "5/10/2022 8:0",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2668",
+      "Ullage": "12707",
+      "Waterheight": "0.0",
+      "Fuelheight": "480.8"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3724",
+      "Ullage": "11462",
+      "Waterheight": "0.0",
+      "Fuelheight": "614.5"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5688",
+      "Ullage": "9457",
+      "Waterheight": "0.0",
+      "Fuelheight": "818.9"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4685",
+      "Ullage": "10480",
+      "Waterheight": "0.0",
+      "Fuelheight": "706.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4439",
+      "Ullage": "10954",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.0"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6780",
+      "Ullage": "8614",
+      "Waterheight": "0.0",
+      "Fuelheight": "946.3"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "12187",
+      "Ullage": "19633",
+      "Waterheight": "0.0",
+      "Fuelheight": "822.1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cd74386bb4200aec19bd7"
+  },
+  "date": "5/10/2022 8:0",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2668",
+      "Ullage": "12707",
+      "Waterheight": "0.0",
+      "Fuelheight": "480.8"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3727",
+      "Ullage": "11458",
+      "Waterheight": "0.0",
+      "Fuelheight": "614.8"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5689",
+      "Ullage": "9457",
+      "Waterheight": "0.0",
+      "Fuelheight": "818.9"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4685",
+      "Ullage": "10481",
+      "Waterheight": "0.0",
+      "Fuelheight": "706.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4439",
+      "Ullage": "10954",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.0"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6780",
+      "Ullage": "8613",
+      "Waterheight": "0.0",
+      "Fuelheight": "946.3"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "12187",
+      "Ullage": "19634",
+      "Waterheight": "0.0",
+      "Fuelheight": "822.1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cd7b459a80291d7f9ebfc"
+  },
+  "date": "5/10/2022 8:2",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2668",
+      "Ullage": "12707",
+      "Waterheight": "0.0",
+      "Fuelheight": "480.8"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3711",
+      "Ullage": "11474",
+      "Waterheight": "0.0",
+      "Fuelheight": "612.9"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5689",
+      "Ullage": "9457",
+      "Waterheight": "0.0",
+      "Fuelheight": "818.9"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4685",
+      "Ullage": "10480",
+      "Waterheight": "0.0",
+      "Fuelheight": "706.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4439",
+      "Ullage": "10954",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.0"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6780",
+      "Ullage": "8613",
+      "Waterheight": "0.0",
+      "Fuelheight": "946.4"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "12187",
+      "Ullage": "19634",
+      "Waterheight": "0.0",
+      "Fuelheight": "822.1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cde50fe918388a5331fcd"
+  },
+  "date": "5/10/2022 8:30",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2669",
+      "Ullage": "12706",
+      "Waterheight": "0.0",
+      "Fuelheight": "480.9"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3589",
+      "Ullage": "11596",
+      "Waterheight": "0.0",
+      "Fuelheight": "598.5"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5681",
+      "Ullage": "9465",
+      "Waterheight": "0.0",
+      "Fuelheight": "818.1"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4658",
+      "Ullage": "10507",
+      "Waterheight": "0.0",
+      "Fuelheight": "703.2"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4439",
+      "Ullage": "10954",
+      "Waterheight": "0.0",
+      "Fuelheight": "691.0"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6715",
+      "Ullage": "8678",
+      "Waterheight": "0.0",
+      "Fuelheight": "939.4"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "12119",
+      "Ullage": "19701",
+      "Waterheight": "0.0",
+      "Fuelheight": "818.5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633cf39a23bdf2ade375e7ba"
+  },
+  "date": "5/10/2022 10:1",
+  "Tank": [
+    {
+      "TankName": "T 1: GASOHOL 95 PLUS",
+      "Volume": "2664",
+      "Ullage": "12711",
+      "Waterheight": "0.0",
+      "Fuelheight": "480.3"
+    },
+    {
+      "TankName": "T 2: GASOHOL 91",
+      "Volume": "3404",
+      "Ullage": "11781",
+      "Waterheight": "0.0",
+      "Fuelheight": "576.3"
+    },
+    {
+      "TankName": "T 3: E20",
+      "Volume": "5623",
+      "Ullage": "9522",
+      "Waterheight": "0.0",
+      "Fuelheight": "811.8"
+    },
+    {
+      "TankName": "T 4: GASOHOL 95",
+      "Volume": "4335",
+      "Ullage": "10830",
+      "Waterheight": "0.0",
+      "Fuelheight": "666.4"
+    },
+    {
+      "TankName": "T 5: SUPREME+DIESEL",
+      "Volume": "4432",
+      "Ullage": "10961",
+      "Waterheight": "0.0",
+      "Fuelheight": "690.2"
+    },
+    {
+      "TankName": "T 6: Diesel",
+      "Volume": "6657",
+      "Ullage": "8737",
+      "Waterheight": "0.0",
+      "Fuelheight": "933.2"
+    },
+    {
+      "TankName": "T 7: B7",
+      "Volume": "11167",
+      "Ullage": "20654",
+      "Waterheight": "0.0",
+      "Fuelheight": "767.7"
     }
   ]
 }]

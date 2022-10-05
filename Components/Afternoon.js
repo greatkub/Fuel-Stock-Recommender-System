@@ -4,8 +4,6 @@ const sch = require("node-schedule")
 const fs = require("fs/promises")
 const mongo = require("mongodb").MongoClient
 
-
-
 async function AfternoonTLS450() {
    try {
        const date = Date.now();
