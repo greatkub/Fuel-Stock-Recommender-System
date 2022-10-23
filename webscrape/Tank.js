@@ -68,7 +68,7 @@ async function VeederRoot() {
                  const select = item.querySelectorAll("#_paramName.tank_item_div_height");
                  const TankName = item.querySelector('.TankLabel');
                  const T = TankName;
-                 //const D = fulldate;
+                 
                  const V = select[0];
                  const U = select[1];
                  const W = select[2];
@@ -86,7 +86,6 @@ async function VeederRoot() {
                });
              results.push({
                     date,
-                    //Time: D.innerText, 
                     Tank: allTank
                 });
                return results
