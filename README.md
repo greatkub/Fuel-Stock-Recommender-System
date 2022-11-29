@@ -1,7 +1,5 @@
 
-# Scraping Data from Veeder Root
-
-Fuel Advice 
+# Fuel Advice
 
 ![image](https://user-images.githubusercontent.com/74519762/204438750-320b055a-3664-4c2f-8bef-80e43dd3a56a.png)
 
