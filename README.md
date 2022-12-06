@@ -14,9 +14,11 @@ Fuel and natural gas are major industries in the energy market and play an influ
   - Human Error
   - Complexity of Ordering
 
+## Algorithms  
+Using a rule-based system is a system that applies human-made rules to store, sort and manipulate data. To work, rule-based systems require a set of facts or source of data, and a set of rules for manipulating that data. Rule-based logic is at the heart of most automated processes.
 
-
-Using puppeteer to automatically scrape data from Veeder-root 
+## Puppeteer
+Using puppeteer which is a node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol to automatically scraping of the essotheone web site to collect data of all the tanks and store it in MongoDB.
 
 ![Vedeeroot](https://user-images.githubusercontent.com/74519762/195978907-33fb553b-b7e0-4f8c-8f4b-2f7676ee8d13.PNG)
 
