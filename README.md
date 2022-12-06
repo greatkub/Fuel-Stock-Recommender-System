@@ -9,6 +9,13 @@ the fuel stock situation for service station operators to be easier to manage bu
 ## 🗃️ Problem Statement: 
 Fuel and natural gas are major industries in the energy market and play an influential role in the world’s Gross Domestic Product by providing energy resources as the primary fuel sources. The processes and systems involved in producing and distributing fuel and gas are highly complex during manage services station there are many issues consider for the fuel ordering of the service station which are listed as following:
 
+  1.Wet Stock Management
+  2.Stock Checking
+  3.Human Error
+  4.Complexity of Ordering
+
+
+
 
 Using puppeteer to automatically scrape data from Veeder-root 
 
