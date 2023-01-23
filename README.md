@@ -15,7 +15,7 @@ Fuel and natural gas are major industries in the energy market and play an influ
   - Complexity of Ordering
 
 ## Algorithms  
-Using a rule-based system is a system that applies human-made rules to store, sort and manipulate data. To work, rule-based systems require a set of facts or source of data, and a set of rules for manipulating that data. Rule-based logic is at the heart of most automated processes.
+Using a rule-based system is to apply human-made rules to store, sort and manipulate data. To work, rule-based systems require a set of facts or source of data, and a set of rules for manipulating that data. Rule-based logic is at the heart of most automated processes.
 
 ## Work Flow
 ![Flowchart](https://user-images.githubusercontent.com/74519762/210126466-84e1929d-46da-4973-9196-b615b351c281.PNG)
