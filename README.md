@@ -14,6 +14,8 @@ Fuel and natural gas are major industries in the energy market and play an influ
   - Stock Checking
   - Human Error
   - Complexity of Ordering
+  
+  ![Tank-Gasoline](https://user-images.githubusercontent.com/74519762/218240203-87de20ad-6468-47a4-addd-6d1272093eb5.png)
 
 ## Algorithms  
 Using a rule-based system to apply human-made rules to store, sort and manipulate data. To work, rule-based systems require a set of facts or source of data, and a set of rules for manipulating that data. Rule-based logic is at the heart of most automated processes.
