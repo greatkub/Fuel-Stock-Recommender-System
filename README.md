@@ -27,7 +27,7 @@ Using a rule-based system to apply human-made rules to store, sort and manipulat
 ![image](https://user-images.githubusercontent.com/74519762/218239798-926384a6-6459-4630-b124-48ceb9a7a795.png)
 
 ## Puppeteer
-Using puppeteer which is a node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol to automatically scraping of the essotheone web site to collect data of all the tanks and store it in MongoDB.
+Using puppeteer which is a node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol to automatically scraping of the essotheone web site to collect data of all the tanks and store it in MongoDB. 
 
 ![Vedeeroot](https://user-images.githubusercontent.com/74519762/195978907-33fb553b-b7e0-4f8c-8f4b-2f7676ee8d13.PNG)
 
